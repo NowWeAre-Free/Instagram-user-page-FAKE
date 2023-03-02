@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
 <!-- phone info section like time, battery status start -->
         <section class="phone-info">
             <p class="phone-info__time">14:37</p>
@@ -25,23 +25,42 @@
 <!-- phone info section like time, battery status end -->
 
 <!-- user name and options section start -->
-        <nav class="options">
+        <nav class="nav">
             <i class="icon-lock"></i>
-            <span class="options__user-name">im_marcinn</span>
+            <span class="nav__username">im_marcinn</span>
             <i class="icon-down-open"></i>
-            <div class="options__buttons">
+            <div class="nav__options">
                 <i class="icon-doc-add"></i>
-                <div class="options__hamburger-menu">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
+                <button class="nav__options-burger">
+                    <div class="nav__options-burger-line"></div>
+                    <div class="nav__options-burger-line"></div>
+                    <div class="nav__options-burger-line"></div>
+                </button>
             </div>
         </nav>
 <!-- user name and options section end -->
-
-
     </header>
+    <main class="main">
+        <section class="account">
+            <img src="" alt="" class="account_avatar">
+            <div class="account_post">
+                <p>1</p>
+                <p>Post</p>
+            </div>
+            <div class="account_followers">
+                <p>199</p>
+                <p>Followers</p>
+            </div>
+            <div class="account_following">
+                <p>182</p>
+                <p>Following</p>
+            </div>
+        </section>
+        <section class="description">
+            <p class="description__name">ML.</p>
+            <a href="https://www.instagram.com/alelipaco/" class="description__bio">@alelipaco</a>
+        </section>
+    </main>
 </body>
 
 </html>
