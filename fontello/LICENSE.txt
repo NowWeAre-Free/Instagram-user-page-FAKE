@@ -28,13 +28,13 @@ Font license info
    Homepage:  http://thedesignoffice.org/project/modern-pictograms/
 
 
-## MFG Labs
+## Iconic
 
-   Copyright (C) 2012 by Daniel Bruce
+   Copyright (C) 2012 by P.J. Onori
 
-   Author:    MFG Labs
+   Author:    P.J. Onori
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.mfglabs.com/
+   Homepage:  http://somerandomdude.com/work/iconic/
 
 
 ## Font Awesome
@@ -44,5 +44,14 @@ Font license info
    Author:    Dave Gandy
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
+
+
+## MFG Labs
+
+   Copyright (C) 2012 by Daniel Bruce
+
+   Author:    MFG Labs
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://www.mfglabs.com/
 
 

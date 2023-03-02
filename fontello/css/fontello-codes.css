@@ -6,7 +6,11 @@
 .icon-grid:before { content: '\e804'; } /* '' */
 .icon-user-add-outline:before { content: '\e805'; } /* '' */
 .icon-plus-circle:before { content: '\e806'; } /* '' */
+.icon-plus:before { content: '\e807'; } /* '' */
+.icon-search:before { content: '\e808'; } /* '' */
+.icon-home:before { content: '\e809'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-wifi:before { content: '\f1eb'; } /* '' */
 .icon-battery-3:before { content: '\f241'; } /* '' */
 .icon-user-circle-o:before { content: '\f2be'; } /* '' */
