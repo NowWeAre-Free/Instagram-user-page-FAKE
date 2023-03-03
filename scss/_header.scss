@@ -27,6 +27,9 @@ body {
         font-size: 22px;
         font-weight: 600;
         letter-spacing: -1px;
+        &-menu-open {
+            cursor: pointer;
+        }
     }
 
     &__options {
@@ -36,6 +39,7 @@ body {
         gap: 20px;
         &-icon {
             font-size: 22px;
+            cursor: pointer;
         }
         &-burger {
             display: flex;
@@ -43,6 +47,7 @@ body {
             gap: 5px;
             background-color: transparent;
             border: none;
+            cursor: pointer;
 
             &-line {
                 background-color: black;
