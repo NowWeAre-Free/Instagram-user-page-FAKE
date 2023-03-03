@@ -1,4 +1,23 @@
 .account {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    &__avatar {
+        position: relative;
+        &-img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50px;
+            bottom: 10px;
+            transform: scale(15px);
+        }
+        &-add{
+            position: absolute;
+            top: 40px;
+            right: 0px;
+            font-size: 20px;
+            color: #0793f2;
+        }
+    }
 }
