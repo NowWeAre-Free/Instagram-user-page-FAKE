@@ -56,3 +56,25 @@
         width: 10%;
     }
 }
+.reels {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    &__img {
+        border: 1px solid grey;
+        border-radius: 50%;
+        padding: 3px;
+        height: 55px;
+        width: 55px;
+    }
+    &__add-new {
+        border: 1px solid grey;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    &__caption {
+        font-size: 12px;
+        text-align: center;
+    }
+}
