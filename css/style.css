@@ -59,14 +59,49 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
   padding: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 .phone-info {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+.phone-info__time {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.nav__nick {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+.nav__options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav__options-burger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: transparent;
+  border: none;
+}
+.nav__options-burger-line {
+  background-color: black;
+  width: 20px;
+  height: 2px;
+}
+
+.account {
   display: flex;
   justify-content: space-between;
 }

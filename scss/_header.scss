@@ -1,15 +1,52 @@
-body{
+body {
     padding: 15px;
+    font-family: 'Poppins', sans-serif;
 }
+
 .header {
     // padding: 10px;
 }
+
 .phone-info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+
+    &__time {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+
+    &__nick {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+
+    &__options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        &-burger {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            background-color: transparent;
+            border: none;
+
+            &-line {
+                background-color: black;
+                width: 20px;
+                height: 2px;
+            }
+        }
+    }
 }
