@@ -34,7 +34,9 @@ body {
         justify-content: center;
         align-items: center;
         gap: 20px;
-
+        &-icon {
+            font-size: 22px;
+        }
         &-burger {
             display: flex;
             flex-direction: column;
