@@ -3,13 +3,14 @@
 .icon-bat-charge:before { content: '\e801'; } /* '' */
 .icon-lock:before { content: '\e802'; } /* '' */
 .icon-doc-add:before { content: '\e803'; } /* '' */
-.icon-grid:before { content: '\e804'; } /* '' */
 .icon-user-add-outline:before { content: '\e805'; } /* '' */
 .icon-plus-circle:before { content: '\e806'; } /* '' */
 .icon-plus:before { content: '\e807'; } /* '' */
 .icon-search:before { content: '\e808'; } /* '' */
 .icon-home:before { content: '\e809'; } /* '' */
+.icon-picture-outline:before { content: '\e80a'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
+.icon-table:before { content: '\f0ce'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-wifi:before { content: '\f1eb'; } /* '' */
 .icon-battery-3:before { content: '\f241'; } /* '' */

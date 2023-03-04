@@ -37,12 +37,6 @@
       "src": "typicons"
     },
     {
-      "uid": "o1c30odwfvgcvi5b4jsg95sur8v6ghsp",
-      "css": "grid",
-      "code": 59396,
-      "src": "modernpics"
-    },
-    {
       "uid": "3fce1eca43f917c8f23e532749abae5d",
       "css": "user-circle-o",
       "code": 62142,
@@ -94,6 +88,18 @@
       "uid": "47a1f80457068fbeab69fdb83d7d0817",
       "css": "youtube-play",
       "code": 61802,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "96819a35f3d743b4df0ea2e92803eeb5",
+      "css": "picture-outline",
+      "code": 59402,
+      "src": "typicons"
+    },
+    {
+      "uid": "8fb55fd696d9a0f58f3b27c1d8633750",
+      "css": "table",
+      "code": 61646,
       "src": "fontawesome"
     }
   ]
