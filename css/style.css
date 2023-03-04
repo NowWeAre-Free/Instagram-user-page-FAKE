@@ -162,12 +162,56 @@ body {
   border: none;
   border-radius: 10px;
   font-weight: 500;
-  font-size: 18px;
   padding: 5px;
   cursor: pointer;
 }
 .profile__add-friends {
   width: 10%;
+}
+
+.reels {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.reels__img {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 3px;
+  height: 55px;
+  width: 55px;
+}
+.reels__add-new {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 15px;
+}
+.reels__caption {
+  font-size: 12px;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  padding: 0;
+}
+.photos__yours-icon, .photos__tagged-in-icon {
+  font-size: 26px;
+}
+
+.main-images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.main-images-grid--style {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
