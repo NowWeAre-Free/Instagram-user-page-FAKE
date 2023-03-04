@@ -1,0 +1,22 @@
+.footer {
+    border-top: 1px solid grey;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__icons {
+        display: flex;
+        gap: 50px;
+        &--style {
+            font-size: 22px;
+        }
+    }
+    &__line{
+        height: 3px;
+        width: 30%;
+        background-color: black;
+        border-radius: 30px;
+        margin-top: 25px;
+    }
+}
