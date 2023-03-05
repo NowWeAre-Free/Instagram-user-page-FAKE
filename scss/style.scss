@@ -2,11 +2,15 @@
 @use './header';
 @use './main';
 @use './footer';
+@use './container';
 
 body {
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+    @media (min-width: 430px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 }
