@@ -10,6 +10,10 @@
         gap: 50px;
         &--style {
             font-size: 22px;
+            cursor: pointer;
+        }
+        @media (max-width: 350px){
+            gap: 5px;
         }
     }
     &__line{
