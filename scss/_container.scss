@@ -1,0 +1,10 @@
+.container {
+    overflow-y: scroll;
+    padding: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    @media (min-width: 430px) {
+        max-height: 650px;
+        width: 430px;
+    }
+}
