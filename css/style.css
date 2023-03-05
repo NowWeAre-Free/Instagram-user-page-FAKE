@@ -57,11 +57,6 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-body {
-  padding: 15px;
-  font-family: "Poppins", sans-serif;
-}
-
 .phone-info {
   display: flex;
   justify-content: space-between;
@@ -91,6 +86,12 @@ body {
   align-items: center;
   gap: 20px;
 }
+@media (max-width: 300px) {
+  .nav__options {
+    gap: 0;
+    flex-direction: column;
+  }
+}
 .nav__options-icon {
   font-size: 22px;
   cursor: pointer;
@@ -115,6 +116,11 @@ body {
   align-items: center;
   text-align: center;
   line-height: 1.3;
+}
+@media (max-width: 250px) {
+  .account {
+    flex-direction: column;
+  }
 }
 .account__avatar {
   position: relative;
@@ -182,6 +188,7 @@ body {
   padding: 3px;
   height: 55px;
   width: 55px;
+  cursor: pointer;
 }
 .reels__add-new {
   border: 1px solid grey;
@@ -206,12 +213,65 @@ body {
 .main-images-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
+  gap: 1px;
 }
 .main-images-grid--style {
-  height: 100%;
-  width: 100%;
+  height: 140px;
+  width: 140px;
   cursor: pointer;
+}
+
+.footer {
+  border-top: 1px solid grey;
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__icons {
+  display: flex;
+  gap: 50px;
+}
+.footer__icons--style {
+  font-size: 22px;
+  cursor: pointer;
+}
+@media (max-width: 350px) {
+  .footer__icons {
+    gap: 3px;
+  }
+}
+.footer__line {
+  height: 3px;
+  width: 30%;
+  background-color: black;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+
+.container {
+  overflow-y: scroll;
+  padding: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+@media (min-width: 430px) {
+  .container {
+    max-height: 650px;
+    width: 430px;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+@media (min-width: 430px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
