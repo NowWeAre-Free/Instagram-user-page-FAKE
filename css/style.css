@@ -57,6 +57,14 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  min-height: 100px;
+  padding-top: 5px;
+}
+
 .phone-info {
   display: flex;
   justify-content: space-between;
@@ -108,6 +116,11 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: black;
   width: 20px;
   height: 2px;
+}
+
+.main {
+  overflow-y: scroll;
+  height: 100%;
 }
 
 .account {
@@ -221,12 +234,15 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  border-top: 2px solid black;
-  padding: 10px 0 10px 0;
+  border-top: 2px solid grey;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  min-height: 100px;
 }
 .footer__icons {
   display: flex;
@@ -245,19 +261,22 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 3px;
   width: 30%;
   background-color: black;
-  border-radius: 30px;
+  border-radius: 20px;
   margin-top: 25px;
 }
 
 .container {
-  overflow-y: scroll;
-  padding: 5px;
+  overflow-y: hidden;
+  padding: 0 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
 }
 @media (min-width: 430px) {
   .container {
-    max-height: 650px;
+    max-height: 700px;
     width: 430px;
+    border-radius: 10px;
   }
 }
 
