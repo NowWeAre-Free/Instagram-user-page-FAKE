@@ -1,12 +1,13 @@
 const actualTime = () => {
 
 const now = new Date();
-const hour = now.getHours();
-const minutes = now.getMinutes();
 
-const time = document.querySelector('#time');
+let hours = now.getHours() < 10 ? "0" + now.getHours() : now.getHours();
+let minutes = now.getMinutes() < 10 ? "0" + now.getMinutes() : now.getMinutes();
 
-time.innerText = `${hour}:${minutes}`;
+const clock = document.querySelector('#clock');
+
+clock.innerText = `${hours}:${minutes}`;
 
 }
 
