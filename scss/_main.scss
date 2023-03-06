@@ -1,14 +1,22 @@
+.main {
+    overflow-y: scroll;
+    height: 100%;
+}
+
 .account {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     line-height: 1.3;
-    @media (max-width: 250px){
+
+    @media (max-width: 250px) {
         flex-direction: column;
     }
+
     &__avatar {
         position: relative;
+
         &-img {
             height: 70px;
             width: 70px;
@@ -16,7 +24,8 @@
             border-radius: 50px;
             bottom: 10px;
         }
-        &-add{
+
+        &-add {
             position: absolute;
             top: 44px;
             right: 3px;
@@ -25,28 +34,36 @@
             cursor: pointer;
         }
     }
+
     &__numbers {
         font-weight: 600;
     }
 }
+
 .description {
     line-height: 1.3;
     margin-top: 10px;
     margin-bottom: 15px;
+
     &__name {
         font-weight: 600;
     }
+
     &__bio {
         font-weight: 500;
         text-decoration: none;
         color: #052b50;
     }
 }
+
 .profile {
     display: flex;
     gap: 3px;
     margin-bottom: 15px;
-    &__edit, &__share, &__add-friends {
+
+    &__edit,
+    &__share,
+    &__add-friends {
         width: 45%;
         border: none;
         border-radius: 10px;
@@ -54,16 +71,19 @@
         padding: 5px;
         cursor: pointer;
     }
+
     &__add-friends {
         width: 10%;
     }
 }
+
 .reels {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 20px;
     margin-bottom: 15px;
+
     &__img {
         border: 1px solid grey;
         border-radius: 50%;
@@ -72,30 +92,39 @@
         width: 55px;
         cursor: pointer;
     }
+
     &__add-new {
         border: 1px solid grey;
         border-radius: 50%;
         padding: 15px;
     }
+
     &__caption {
         font-size: 12px;
         text-align: center;
     }
 }
+
+//user photos or photos tagged-in
 .photos {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid black;
-    &__yours, &__tagged-in {
+
+    &__yours,
+    &__tagged-in {
         &-icon {
             font-size: 26px;
         }
     }
 }
+
+//main user photos section
 .main-images-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
+
     &--style {
         height: 140px;
         width: 140px;
