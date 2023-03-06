@@ -85,8 +85,7 @@
 .photos {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid grey;
-    padding: 0;
+    border-bottom: 2px solid black;
     &__yours, &__tagged-in {
         &-icon {
             font-size: 26px;

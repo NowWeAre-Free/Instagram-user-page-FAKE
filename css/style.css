@@ -203,8 +203,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .photos {
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid grey;
-  padding: 0;
+  border-bottom: 2px solid black;
 }
 .photos__yours-icon, .photos__tagged-in-icon {
   font-size: 26px;
@@ -222,7 +221,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  border-top: 1px solid grey;
+  border-top: 2px solid black;
   padding: 10px 0 10px 0;
   display: flex;
   flex-direction: column;
@@ -253,7 +252,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .container {
   overflow-y: scroll;
   padding: 5px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 @media (min-width: 430px) {
   .container {
