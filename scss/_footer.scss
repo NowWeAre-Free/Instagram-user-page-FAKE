@@ -1,26 +1,33 @@
 .footer {
-    border-top: 2px solid black;
-    padding: 10px 0 10px 0;
+    border-top: 2px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    min-height: 100px;
+
     &__icons {
         display: flex;
         gap: 50px;
+
         &--style {
             font-size: 22px;
             cursor: pointer;
         }
-        @media (max-width: 350px){
+
+        @media (max-width: 350px) {
             gap: 3px;
         }
     }
-    &__line{
+
+    &__line {
         height: 3px;
         width: 30%;
         background-color: black;
-        border-radius: 30px;
+        border-radius: 20px;
         margin-top: 25px;
     }
 }
