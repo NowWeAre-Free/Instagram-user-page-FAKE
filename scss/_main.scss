@@ -92,6 +92,9 @@
         height: 55px;
         width: 55px;
         cursor: pointer;
+        &:hover {
+            filter: brightness(90%) saturate(100%) hue-rotate(5deg);
+        }
     }
 
     &__add-new {
@@ -130,9 +133,9 @@
         height: 140px;
         width: 140px;
         cursor: pointer;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease-in-out;
         &:hover {
-            filter: grayscale(50%);
+            filter: brightness(90%) saturate(100%) hue-rotate(5deg);
         }
     }
 
