@@ -88,9 +88,11 @@ p, h1, h2, h3, h4, h5, h6 {
 .nav__nick-menu-open {
   cursor: pointer;
 }
+.nav__nick-menu-open:hover {
+  color: rgba(37, 37, 37, 0.7137254902);
+}
 .nav__options {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 }
@@ -104,10 +106,14 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   cursor: pointer;
 }
+.nav__options-icon:hover {
+  color: rgba(37, 37, 37, 0.7137254902);
+}
 .nav__options-burger {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
+  padding: 0;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -130,11 +136,6 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   line-height: 1.3;
 }
-@media (max-width: 250px) {
-  .account {
-    flex-direction: column;
-  }
-}
 .account__avatar {
   position: relative;
 }
@@ -155,6 +156,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .account__numbers {
   font-weight: 600;
+}
+@media (max-width: 250px) {
+  .account {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -184,6 +190,9 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 5px;
   cursor: pointer;
 }
+.profile__edit:hover, .profile__share:hover, .profile__add-friends:hover {
+  filter: brightness(90%) saturate(100%) hue-rotate(5deg);
+}
 .profile__add-friends {
   width: 10%;
 }
@@ -194,6 +203,7 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: start;
   gap: 20px;
   margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 .reels__img {
   border: 1px solid grey;
@@ -202,6 +212,9 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 55px;
   width: 55px;
   cursor: pointer;
+}
+.reels__img:hover {
+  filter: brightness(90%) saturate(100%) hue-rotate(5deg);
 }
 .reels__add-new {
   border: 1px solid grey;
@@ -222,15 +235,28 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 26px;
 }
 
-.main-images-grid {
+.gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
 }
-.main-images-grid--style {
+.gallery__style {
   height: 140px;
   width: 140px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.gallery__style:hover {
+  filter: brightness(90%) saturate(100%) hue-rotate(5deg);
+}
+@media (max-width: 250px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery__style {
+    width: 100%;
+  }
 }
 
 .footer {
@@ -248,9 +274,12 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   gap: 50px;
 }
-.footer__icons--style {
+.footer__icons-style {
   font-size: 22px;
   cursor: pointer;
+}
+.footer__icons-style:hover {
+  color: rgba(37, 37, 37, 0.7137254902);
 }
 @media (max-width: 350px) {
   .footer__icons {

@@ -29,12 +29,14 @@
 
         &-menu-open {
             cursor: pointer;
+            &:hover {
+                color: #252525b6;
+            }
         }
     }
 
     &__options {
         display: flex;
-        justify-content: center;
         align-items: center;
         gap: 20px;
 
@@ -46,16 +48,20 @@
         &-icon {
             font-size: 22px;
             cursor: pointer;
+            &:hover {
+                color: #252525b6;
+            }
         }
 
         &-burger {
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 6px;
+            padding: 0;
             background-color: transparent;
             border: none;
             cursor: pointer;
-
+            
             &-line {
                 background-color: black;
                 width: 20px;
