@@ -13,9 +13,12 @@
         display: flex;
         gap: 50px;
 
-        &--style {
+        &-style {
             font-size: 22px;
             cursor: pointer;
+            &:hover {
+                color: #252525b6;
+            }
         }
 
         @media (max-width: 350px) {
