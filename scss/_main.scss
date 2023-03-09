@@ -116,12 +116,16 @@
 .photos {
     display: flex;
     justify-content: space-around;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid gray;
 
     &__yours,
     &__tagged-in {
         &-icon {
             font-size: 26px;
+            cursor: pointer;
+        }
+        &:hover {
+            color: #252525b6;
         }
     }
 }
