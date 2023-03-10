@@ -229,10 +229,14 @@ p, h1, h2, h3, h4, h5, h6 {
 .photos {
   display: flex;
   justify-content: space-around;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid gray;
 }
 .photos__yours-icon, .photos__tagged-in-icon {
   font-size: 26px;
+  cursor: pointer;
+}
+.photos__yours:hover, .photos__tagged-in:hover {
+  color: rgba(37, 37, 37, 0.7137254902);
 }
 
 .gallery {
@@ -273,6 +277,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .footer__icons {
   display: flex;
   gap: 50px;
+  margin-bottom: 25px;
 }
 .footer__icons-style {
   font-size: 22px;
@@ -291,7 +296,6 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 30%;
   background-color: black;
   border-radius: 20px;
-  margin-top: 25px;
 }
 
 .container {

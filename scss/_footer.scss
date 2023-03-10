@@ -12,6 +12,7 @@
     &__icons {
         display: flex;
         gap: 50px;
+        margin-bottom: 25px;
 
         &-style {
             font-size: 22px;
@@ -31,6 +32,5 @@
         width: 30%;
         background-color: black;
         border-radius: 20px;
-        margin-top: 25px;
     }
 }
